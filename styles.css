@@ -1,0 +1,101 @@
+/* Estilo para o corpo com imagem de fundo */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://www.futuraqsma.com.br/wp-content/uploads/2019/04/coleta-lixo-eletronico.jpg'); /* Caminho para a imagem de fundo */
+    background-size: cover; /* Faz a imagem cobrir toda a página */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Impede que a imagem se repita */
+    background-attachment: fixed; /* Faz a imagem de fundo ficar fixa durante o scroll */
+    color: #034c14; /* Define a cor do texto para branco para contraste */
+}
+
+/* Configuração de cabeçalho */
+header {
+    background: rgba(28, 98, 3, 0.7); /* Fundo semi-transparente para o cabeçalho */
+    color: #f3f8f4;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Navegação */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #f4f7f4;
+    text-decoration: none;
+}
+
+/* Principal */
+main {
+    padding: 1rem;
+    background: rgba(125, 167, 144, 0.5); /* Fundo semi-transparente para melhor legibilidade */
+    border-radius: 10px; /* Bordas arredondadas */
+    max-width: 1200px; /* Largura máxima do conteúdo principal */
+    margin: 2rem auto; /* Centraliza o conteúdo principal */
+}
+
+/* Seções gerais */
+section {
+    margin-bottom: 2rem;
+}
+
+section h2 {
+    border-bottom: 2px solid #fff; /* Borda branca para contraste */
+    padding-bottom: 0.5rem;
+}
+
+/* Formulário */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin-top: 1rem;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+form button {
+    background: #333;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #555;
+}
+
+/* Rodapé */
+footer {
+    background: rgba(28, 121, 19, 0.7); /* Fundo semi-transparente para o rodapé */
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
